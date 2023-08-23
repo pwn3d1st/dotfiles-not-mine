@@ -20,7 +20,7 @@ echo "installing fonts..."
 yay -S nerd-fonts
 clear
 echo "copying configs"
-cd ~/dotfiles
+cd ~/dotfiles-not-mine
 cp -r alacritty ~/.config/
 cp -r btop ~/.config/
 sudo mkdir /etc/xdg
