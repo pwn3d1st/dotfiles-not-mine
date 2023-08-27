@@ -23,7 +23,6 @@ echo "copying configs"
 cd ~/dotfiles-not-mine
 cp -r alacritty ~/.config/
 cp -r btop ~/.config/
-sudo mkdir /etc/xdg
 sudo mkdir /etc/xdg/dunst
 sudo cp  dunst/dunstrc /etc/xdg/dunst/dunstrc
 mkdir ~/.config/flameshot
@@ -35,5 +34,4 @@ sudo cp  picom/picom.conf /etc/xdg/picom.conf
 sudo cp -r polybar /etc/
 cp -r lazygit ~/.config
 sudo cp tmux/tmux.conf /etc/tmux.conf
-cp nitrogen ~/.config
 cp i3 ~/.config
