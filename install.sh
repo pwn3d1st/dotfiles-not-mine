@@ -34,4 +34,4 @@ sudo cp  picom/picom.conf /etc/xdg/picom.conf
 sudo cp -r polybar /etc/
 cp -r lazygit ~/.config
 sudo cp tmux/tmux.conf /etc/tmux.conf
-cp i3 ~/.config
+cp -r i3 ~/.config
