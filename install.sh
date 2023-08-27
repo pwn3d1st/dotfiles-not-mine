@@ -16,11 +16,6 @@ clear
 echo "installing packages"
 sudo pacman -S i3 alacritty btop dunst flameshot htop kitty lazygit neofetch neovim picom polybar ranger rofi tmux
 clear
-echo "installing xorg"
-sudo pacman -S xorg lightdm
-touch ~/.xinitrc
-echo startx >> ~/.xinitrc
-clear
 echo "installing fonts..."
 yay -S nerd-fonts
 clear
